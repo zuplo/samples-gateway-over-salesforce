@@ -1,0 +1,19 @@
+{
+  "environmentVariables": {
+    "SFDC_INSTANCE_URL": {
+      "variableType": "config"
+    },
+    "SFDC_AUDIENCE": {
+      "variableType": "config"
+    },
+    "SFDC_USERNAME": {
+      "variableType": "config"
+    },
+    "SFDC_CONSUMER_KEY": {
+      "variableType": "config"
+    },
+    "SFDC_PRIVATE_KEY": {
+      "variableType": "secret"
+    }
+  } 
+}

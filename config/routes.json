@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "label": "What zup?",
+      "path": "/query",
+      "handler": {
+        "export": "default",
+        "module": "$import(./modules/query)",
+        "options": {}
+      },
+      "methods": [
+        "GET"
+      ],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    }
+  ],
+  "versions": [
+    {
+      "name": "none",
+      "pathPrefix": ""
+    },
+    {
+      "name": "v1",
+      "pathPrefix": "/v1"
+    }
+  ],
+  "policies": []
+}

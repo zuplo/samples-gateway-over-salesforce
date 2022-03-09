@@ -1,0 +1,9 @@
+{
+  "description": "A simple POST to the hello-world example",
+  "pathname": "/v1/query",
+  "method": "GET",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": "{\"What\":\"zup?\"}"
+}
